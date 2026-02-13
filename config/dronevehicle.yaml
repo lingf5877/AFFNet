@@ -1,0 +1,12 @@
+path: /data2/home/wj4/jw_stu/drone/AFFNet/data/dronevehicle
+
+train_rgb: /data2/home/wj4/jw_stu/drone/AFFNet/data/dronevehicle/train/rgb  # 128 images
+val_rgb: /data2/home/wj4/jw_stu/drone/AFFNet/data/dronevehicle/val/rgb  # 128 images
+test_rgb: /data2/home/wj4/jw_stu/drone/AFFNet/data/dronevehicle/test/rgb  # 128 images
+
+train_ir: /data2/home/wj4/jw_stu/drone/AFFNet/data/dronevehicle/train/tir  # 128 images
+val_ir: /data2/home/wj4/jw_stu/drone/AFFNet/data/dronevehicle/val/tir  # 128 images
+test_ir: /data2/home/wj4/jw_stu/drone/AFFNet/data/dronevehicle/test/tir  # 128 images
+
+nc: 5
+names: ['car', 'truck', 'bus', 'van', "freight_car"]
